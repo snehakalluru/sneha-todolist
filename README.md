@@ -10,8 +10,8 @@ LocalStorage (data persistence).
 Here are some previews of my To-Do List
 
 ## To-do List Page 
-![Task Input Interface](Screenshot(56).png)
+![Task Input Interface](Screenshot%20(56).png)
 
 ### Categorized Task View (Events, Upcoming, Deleted)
-![Task view](Screenshot(58).png)
+![Task view](Screenshot%20(58).png)
 
