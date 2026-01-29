@@ -7,4 +7,11 @@ JavaScript (DOM manipulation, event handling).
 LocalStorage (data persistence).
 
 # 📸screenshots
+Here are some previews of my To-Do List
+
+## To-do List Page 
+![Task Input Interface](Screenshot(56).png)
+
+### Categorized Task View (Events, Upcoming, Deleted)
+![Task view](Screenshot(58).png)
 
