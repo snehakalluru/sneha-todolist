@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+
+.heading{
+    text-align: center;
+    margin-top: 50px;
+    font-style: oblique;
+}
+.container{
+    padding:20px;
+    margin:20px auto;
+    max-width: 800px;
+}
+
+.input{
+    display:flex;
+    margin:50px;
+    align-items:center;
+    gap:15px;
+    margin-bottom: 30px;
+}
+#task-input, #event-date{
+    padding:10px;
+    flex: 1;
+}
+.primaryBtn{
+    padding:10px 20px;
+    background-color: #007bf0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.primaryBtn :hover{
+    background-color:#0056b3;
+}
+.details{
+    display:flex;
+    gap:80px;
+    justify-content: space-between;
+}
+.details .card-header{
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+
+/* Upcoming tasks = Orange shade */
+#UpcomingList li {
+  background-color: rgb(247, 201, 115) ;   
+  border: 2px solid rgb(247, 180, 57); 
+}
+
+/* Events tasks = Pink shade */
+#EventsList li {
+  background-color: lightblue;   
+  border: 2px solid rgb(119, 196, 222); 
+}
+/* Completed tasks = Green */
+#Completed li {
+  background-color: lightgreen;   
+  border: 2px solid #1ae421; 
+}
+
+/* Default styles (desktop/larger screens) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.list-group-item {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+/* Tablet screens */
+@media (max-width: 768px) {
+  .list-group-item {
+    font-size: 0.9rem;
+    flex-direction: column; /* stack text and buttons */
+    align-items: flex-start;
+  }
+
+  .list-group-item div {
+    margin-top: 8px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  body {
+    margin: 9px;
+  }
+
+  .list-group-item {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+
+  .btn {
+    font-size: 0.7rem;
+    margin: 2px;
+  }
+
+  span {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
